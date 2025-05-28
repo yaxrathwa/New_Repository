@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+
+html, 
+body,
+#root, 
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+  
+}
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.ps-menuitem-root.ps-active .ps-menu-button,
+.ps-menuitem-root.ps-active a {
+  color: #02023f !important;
+}
